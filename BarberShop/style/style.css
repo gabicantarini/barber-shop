@@ -72,7 +72,7 @@ nav a:hover{ /* Adicionamos a tag hover após o item. Ex: nav + a é para altera
 
 footer{
     text-align: center;
-    background: url("bg.jpg");
+    background: url("../img/bg.jpg");
     padding: 40px 0;
 }
 .copyright{
@@ -81,9 +81,9 @@ footer{
     margin-top: 20px;
 }
 
-main{
+/*main{
     
-}
+}*/
 
 form{
     margin: 40px 0;
