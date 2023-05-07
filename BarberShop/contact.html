@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacts - Barbershop</title>
+        <link rel="stylesheet" href="style/reset.css"><!--*1º reseta, depois coloca outros estilos-->
+        <link rel="stylesheet" href="style/style.css">
+        
+    </head>
+        <body>
+            <header>
+                <div class="caixa">
+                    <h1><img src="./img/logo.png" alt="Logo da Barbershop"></h1> <!--imagem principal da página--><!--alt vem de alternativo, usamos nas imagens como informação adicional auxiliares para cegos-->
+
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li> <!--A tag <a> serve como uma âncora, um link, que leva para outro ponto na internet.-->
+                            <li><a href="produtos.html">Produtos</a></li>
+                            <li><a href="contato.html">Contatos</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <form>
+                    <label for="nomesobrenome">Nome e Sobrenome</label> <!--label e input andam juntos-->
+                    <input type="text" id="nomesobrenome" class="input-padrao" required><!--required para preenchimento obrigatório-->
+
+                    <label for="email">Email</label> <!--label faz o pedido para o usuário-->
+                    <input type="email" id="email" required placeholder="seuemail@dominio.com"> <!--input recebe a informação-->
+
+                    <label for="telefone">Telefone</label> 
+                    <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+                    <fieldset>
+                        <legend>Como prefere o nosso contato?</legend>
+                        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                        
+
+                        <label for="radio-telefone"><input type="radio" name="contato" value="email" id="radio-telefone">Telefone</label>
+                        
+
+                        <label for="radio-whatsapp"><input type="radio" name="contato" value="email" id="radio-whatsapp" checked>Whatsapp</label><!--para já deixar marcado o box do zap no navegador-->
+                        
+                    </fieldset>
+                    <fieldset>
+                        <legend>Qual horário prefere ser atendido?</legend> <!--Usamos a tag <legend> para um título de um grupo de campos em qualquer formulário.-->
+                        <select> <!--A estrutura da tag <select> é composta de um ou mais <option>.-->
+                            <option>Manhã</option> <!--a tag <option> serve para criarmos os itens selecionáveis de um <select>-->
+                            <option>Tarde</option>
+                            <option>Noite</option>
+                        </select>
+                    </fieldset>
+                    <label class checkbox><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+                    <input type="submit" value="Enviar formulário" class="enviar">
+                </form>
+                <table> <!--a tag <table> cria uma tabela-->
+                    <thead><!--para o cabeçalho da tabela-->
+                        <tr> <!--a tag <tr> marca uma linha de uma tabela-->
+                            <th>Dia</th> <!--a tag <td> marca uma coluna de uma tabela especifica para o <thead>-->
+                            <th>Horário</th>
+                        </tr>
+                    </thead>
+                    <tbody><!--para o corpo da tabela-->
+                        <tr>
+                            <td>Segunda</td><!--a tag <td> marca uma coluna de uma tabela-->
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </main>
+            <footer>
+                <img src=".img/logo-branco.png" alt="Logo da Barbershop">
+                <p class="copyright">&copy; Copyright Barbershop - 2019</p>
+            </footer>
+        </body>
+    
+</html>
+
+<!--estrutura básica de formulário: a tag “form”, um input, que pega qualquer tipo de informação, e 
+o input para 
+temos entrada de dados do usuário.  O label serve para criarmos uma estrutura melhor no nosso formulário, botando uma etiqueta 
+para cada um dos campos onde  coisa. A maioria dos formulários que vocês vão ver na internet têm 
+essa estrutura básica.
+<-- A propriedade name só pode ser "preenchida" uma única vez, por isso que, quando eu seleciono um dos itens, ele desmarca o outro, mantendo somente um selecionado.-->
+<!--Tabela HTML
+A tag table, que representa a tabela
+A tag tr, que representa a linha da tabela
+A tag td, que representa a célula da tabela
+A tag thead, que representa o cabeçalho da tabela
+A tag tbody, que representa o corpo da tabela
+A tag th, que representa a célula do cabeçalho da tabela
+A tag tfoot, que representa o rodapé da tabela-->
