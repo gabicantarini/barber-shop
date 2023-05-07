@@ -86,7 +86,7 @@ footer{
 }*/
 
 form{
-    margin: 40px 0;
+    margin: 40px 0px 40px 600px
 }
 
 form label, form legend{
@@ -108,7 +108,7 @@ form label, form legend{
 .enviar{
     width:40%;
     padding: 15px 0;
-    background: orange;
+    background: darkblue;
     color: white;
     font-weight: bold;
     font-size:18px;
@@ -122,7 +122,7 @@ form label, form legend{
     transform: scale(1.2); /*a propriedade transform: scale() aumenta um elemento proporcionalmente*/
 }
 table{
-    margin: 20px 0 40px;
+    margin: 40px 0px 40px 800px;
 }
 thead{
     background: #555555;
