@@ -4,4 +4,4 @@
 2. product page
 3. contact page
 
- ![ Alt text](7IsD.gif) / ! [](7IsD.gif)
+ ![gif example](./img/7IsD.gif) / ![gif example](./img/7IsD.gif)
