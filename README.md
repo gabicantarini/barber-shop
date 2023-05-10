@@ -1,4 +1,4 @@
-# This is a Barbershop marketplace in progress...
+# This is a Barbershop app in progress...
 
 # Index
 
@@ -10,9 +10,9 @@
 
 
 
-## Project overview <a name="id01">Rank App</a>
+## Project overview <a name="id01">Barbershop App</a>
 
-This is a marketplace Barbershop application web to publish gourmet cuts. The pages for this application are:
+This is a Barbershop application web to publish gourmet cuts. The pages for this application are:
 
 - homepage.
 - products.
