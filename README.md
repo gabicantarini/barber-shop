@@ -4,7 +4,7 @@
 
 - [Project overview](#id01)
 - [Technologies](#id02)
-- [Related Projects](#id03)
+- [Photos](#id03)
 - [Requirements](#id04)
 - [Author](#id05)
 
@@ -31,9 +31,8 @@ I've used the follow technologies:<br/>
 
 
 
-## Related Projects <a name="#id03"></a>
-- [School Grade](#id) 
-- [Final GPA](#id)
+## Photos <a name="#id03"></a>
+<code><img height="100" width="100" src="\img\custPrice.png"></code>
 
 
 
