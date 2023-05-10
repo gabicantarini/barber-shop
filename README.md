@@ -18,7 +18,7 @@ This is a Barbershop application web to publish gourmet cuts. The pages for this
 - products.
 - contact.
 
-<h3>Visit our Barbershop web: </h3><a href="https://barber-shop-amber.vercel.app/"></a>
+<h3>Visit our Barbershop web: </h3><a href="https://barber-shop-amber.vercel.app/">Barbershop</a>
 
 ## Technologies <a name="#id02"></a>
 
@@ -32,7 +32,7 @@ I've used the follow technologies:<br/>
 
 
 ## Photos <a name="#id03"></a>
-<code><img height="100" width="100" src="./img/custPrice.png"></code>
+<code><img height="500" width="500" src="./img/custPrice.png"></code>
 
 
 
