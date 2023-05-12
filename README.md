@@ -18,7 +18,7 @@ This is a Barbershop application web to publish gourmet cuts. The pages for this
 - products.
 - contact.
 
-<h3>Visit our Barbershop web: </h3><a href="https://barber-shop-amber.vercel.app/">Barbershop</a>
+<h3>Visit webpage: </h3><a href="https://barber-shop-amber.vercel.app/">Barbershop</a>
 
 ## Technologies <a name="#id02"></a>
 
@@ -32,17 +32,17 @@ I've used the follow technologies:<br/>
 
 
 ## Photos <a name="#id03"></a>
-<code><img height="500" width="500" src="./img/custPrice.png"></code>
+<code><img height="300" width="500" src="./img/custPrice.png"></code>
 
 
 
 # Requirements <a name="id04"></a>
-<p>write about compiling</p>
+<p>Compiling info:</p>
 
 
 <br />
 
-- [x] Code editor as your preference (I recommend Visual Studio Code 2022)
+- [x] Code editor as your preference (I recommend VS Code)
 - [x] Git
 - [x] Package management Yarn or NPM
 
